@@ -16,6 +16,8 @@
           "name": "label_mapa",
           "text": {
             "fixedValue": "Mapa"
+            "widht": 5
+            "height":5
           },
           "color": {
             "value": -16777216,
