@@ -18,8 +18,6 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.project.init.ProjectModMenus;
-
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.List;
 import java.util.HashMap;
@@ -36,8 +34,6 @@ public class ProjectMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
-
-		ProjectModMenus.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

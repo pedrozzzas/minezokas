@@ -1,19 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "Mapa",
-      "type": "gui",
-      "compiles": false,
-      "locked_code": false,
-      "registry_name": "mapa",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/project/world/inventory/MapaMenu.java",
-          "src/main/java/net/mcreator/project/client/gui/MapaScreen.java"
-        ]
-      }
-    },
-    {
       "name": "Map",
       "type": "code",
       "compiles": true,
