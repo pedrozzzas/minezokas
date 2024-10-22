@@ -1,0 +1,59 @@
+{
+  "mod_elements": [
+    {
+      "name": "Mapa",
+      "type": "gui",
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "mapa",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/project/world/inventory/MapaMenu.java",
+          "src/main/java/net/mcreator/project/client/gui/MapaScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "Map",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "map",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/project/Map.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "gui.project.mapa.button_empty": "Mapa",
+      "gui.project.mapa.label_mapa": "Mapa"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "project",
+    "modName": "Project",
+    "version": "1.0.0",
+    "author": "Pedro, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "modElementsPackage": "net.mcreator.project"
+  },
+  "mcreatorVersion": 202400342716
+}
