@@ -3,11 +3,13 @@ package net.mcreator.project;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
-import net.minecraft.item;
+import net.minecraft.items;
 import net.minecraft.client;
 import net.minecraft.api;
 import net.minecraft.core;
 import net.minecraft;
+
+import journeymap from = "settings.gradle";
 
 import net.neoforged.neoforge.network.registration.PayloadRegistrar;
 import net.neoforged.neoforge.network.handling.IPayloadHandler;
