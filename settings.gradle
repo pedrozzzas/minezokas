@@ -3,9 +3,19 @@ pluginManagement {
         mavenLocal()
         gradlePluginPortal()
         maven { url = 'https://maven.neoforged.net/releases' }
+        maven {
+            name = "JourneyMap (Public)"
+            url = "https://jm.gserv.me/repository/maven-public/"
+        }
     }
 }
 
 plugins {
     id 'org.gradle.toolchains.foojay-resolver-convention' version '0.8.0'
+}
+
+dependencies {
+    journeymap
+    journeymap_api_version = 2.0.0-1.21.1-SNAPSHOT
+    compileOnly group: 'info.journeymap', name: 'journeymap-api-neoforge', version: project.journeymap_api_version, changing: true
 }
